@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    font-family: "Parisienne", cursive;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+#eslogan{
+    font-family: "Caveat", cursive;
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    width: 40%;
+    margin: auto;
+}
+h2{
+    color: #ffe4c4;
+    font-family: "Pacifico", cursive;
+}
+ul{
+    font-size: 1.5em;
+    font-family: "Pacifico", cursive;
+}
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+font-weight: bold;
+}
+a:active{
+    color: darkgoldenrod;
+}
+.texto-normal{
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+#logocafe{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#contenedor-logo{
+    text-align: center;
+}
+ul,li{
+    color: white;
+}
+
+.fotocarta{
+    height: 200px;
+    width: 200px;
+    border-radius: 45%;
+}
+
+.categoria{
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+
+table,td,th{
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse;
+    vertical-align:center;
+    width: 50%;
+    padding: 20px;
+}
+
+table{
+    background-color: cornsilk;
+    font-family: "Satisfy", cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+
+form{
+    border: solid 2px darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+}
+
+label{
+    font-family: "Caveat", cursive;
+    color: cornsilk;
+    font-size: 1.5em;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <body style="background-image: url(images/taza-cafe.jpg);">
+
+        <h1>Café París</h1>
+        
+        <p id="eslogan">
+        Un momento de relax
+        </p>
+        
+    <p>
+        <ul>
+            <a href="index.html"><li>Principal</li></a>
+            <a href="carta.html"><li>Nuestra Carta</li></a>
+            <a href="contacto.html"><li>Contácte con nosotros</li></a>
+        </ul>
+    </p>
+
+   <h2>Contácte con Nosotros</h2>
+
+   <form action="procesacontacto.php" method="get">
+
+    <p>
+        <label for="nombre">Nombre y Apellidos: <input required id="nombre" type="text" placeholder="Escriba su nombre y apellidos:"></label>
+    </p>
+
+    <p>
+        <label for="fecha">Fecha de Nacimiento: <input required id="fecha" type="date"></label>
+    </p>
+
+    <p>
+        <label for="consumo">Suele consumir:
+
+        <input id="cafe" type="radio" name="consumo" >Café
+        <input id="té" type="radio" name="consumo" >Té
+        <input id="ambos" type="radio" name="consumo">Ambos
+
+        </label>
+    </p>
+
+    <p>
+        <label for="numero">Número de cafés al día: <input  id="numero" type="number" min="1" max="5"></label>
+    </p>
+
+    <p>
+        <label for="cafeteria">Seleccione su cafetería: 
+        <select name="cafeteria" id="cafeteria">
+
+            <option value="1">Madrid</option>
+            <option value="2">Barcelona</option>
+            <option value="3">Sevilla</option>
+
+        </select>
+        </label>
+    </p>
+
+    <p>
+        <input checked  id="check" type="checkbox"><label for="check">Deseo recibir información sobre novedades y ofertas </label>
+    </p>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Reiniciar">
+
+   </form>
+    </body>
+</body>
+</html>
